@@ -1,10 +1,10 @@
 import React from 'react';
-import Hover from './components/Hover';
+import List from './components/List';
 
 function App() {
   return (
     <div>
-      <Hover />
+      <List />
     </div>
   );
 }
