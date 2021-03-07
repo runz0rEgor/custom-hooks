@@ -1,9 +1,10 @@
 import React from 'react';
+import Hover from './components/Hover';
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello</h1>
+    <div>
+      <Hover />
     </div>
   );
 }
