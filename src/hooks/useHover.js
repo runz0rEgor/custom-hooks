@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function useHover(ref) {
   const [isHovering, setHovering] = useState(false);
@@ -22,7 +22,7 @@ export default function useHover(ref) {
       node.removeEventListener('mouseleave', off);
     }
 
-  }, [])
+  }, [ref])
 
   return isHovering;
 }
